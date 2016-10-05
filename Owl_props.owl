@@ -1,0 +1,25 @@
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:plants="http://www.linkeddatatools.com/plants#">
+
+	<!-- OWL Header Omitted For Brevity -->
+
+	<!-- OWL Classes Omitted For Brevity -->
+
+	<!-- Define the family property -->
+	<owl:DatatypeProperty rdf:about="http://www.linkeddatatools.com/plants#family"/>
+
+	<rdf:Description rdf:about="http://www.linkeddatatools.com/plants#magnolia">
+
+		<!-- Magnolia is a type (instance) of the flowers class -->
+		<rdf:type rdf:resource="http://www.linkeddatatools.com/plants#flowers"/>
+
+		<!-- The magnolia is part of the 'Magnoliaceae' family -->
+		<plants:family>Magnoliaceae</plants:family>
+
+	</rdf:Description>
+
+</rdf:RDF>
